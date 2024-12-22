@@ -1,6 +1,6 @@
 # DOIT
 
-A minimalist terminal-based TODO manager designed for developers who prefer working in the command line. The program automatically runs once per day during your first terminal session, helping you manage daily tasks without disrupting your workflow.
+A minimalist Windows terminal-based TODO manager designed for developers who prefer working in the command line. The program automatically runs once per day during your first terminal session, helping you manage daily tasks without disrupting your workflow.
 
 https://github.com/user-attachments/assets/5d84bfaa-ca04-492f-be8b-76d0c02a4df4
 
@@ -37,11 +37,6 @@ OR
 gcc -o todo todo.c
 ```
 3. Move the executable to a directory in your PATH or create an alias
-
-### System Requirements
-- Windows operating system
-- GCC compiler
-- CMD or Clink terminal
 
 ## Usage
 
