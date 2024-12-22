@@ -2,7 +2,11 @@
 
 A minimalist terminal-based TODO manager designed for developers who prefer working in the command line. The program automatically runs once per day during your first terminal session, helping you manage daily tasks without disrupting your workflow.
 
-https://github.com/user-attachments/assets/421188f5-5dcd-428e-b7e3-df95e3e75503
+
+
+https://github.com/user-attachments/assets/5d84bfaa-ca04-492f-be8b-76d0c02a4df4
+
+
 
 ## Features
 
@@ -61,7 +65,7 @@ todo ls
 
 - By default, all tasks are considered completed at the end of each day
 - Tasks must be explicitly marked "Keep for Tomorrow" to appear the next day
-- New tasks can be added at any time using the `--force` flag
+- New tasks can be added at any time using the `ls`
 
 ## Data Storage
 
