@@ -4,6 +4,10 @@ A minimalist terminal-based TODO manager designed for developers who prefer work
 
 ## Features
 
+- **Ultra Lightweihgt Executable**
+  - machine code and C program
+  - This will not make your terminal bloated
+
 - **Automatic Daily Management**
   - Runs automatically on first terminal session of the day
   - Cleans up previous day's tasks automatically

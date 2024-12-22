@@ -257,7 +257,7 @@ void cleanup_tasks(void) {
     for (int i = 0; i < task_count; i++) {
         if (tasks[i].keep_for_tomorrow) {
             tasks[i].keep_for_tomorrow = 0;
-            tasks[i].description[strlen(tasks[i].description) - 10] = '\0';
+            tasks[i].description[strlen(tasks[i].description) - 12] = '\0';
         } else {
             for (int j = i; j < task_count - 1; j++) {
                 strcpy(tasks[j].description, tasks[j + 1].description);
