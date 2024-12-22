@@ -2,11 +2,7 @@
 
 A minimalist terminal-based TODO manager designed for developers who prefer working in the command line. The program automatically runs once per day during your first terminal session, helping you manage daily tasks without disrupting your workflow.
 
-
-
 https://github.com/user-attachments/assets/5d84bfaa-ca04-492f-be8b-76d0c02a4df4
-
-
 
 ## Features
 
@@ -30,6 +26,10 @@ https://github.com/user-attachments/assets/5d84bfaa-ca04-492f-be8b-76d0c02a4df4
   - Clear task visibility
 
 ## Installation
+
+1. Download from the releases
+
+OR
 
 1. Clone or download the source code
 2. Compile the program:
