@@ -1,6 +1,4 @@
-"I'm too lazy to open todo app/widget and mark done todo" 
-
-Introducing...
+"I'm too lazy to open todo app/widget and mark done todo"
 
 # DOIT
 
