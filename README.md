@@ -1,3 +1,7 @@
+"I'm too lazy to open todo app/widget and mark done todo" 
+
+Introducing...
+
 # DOIT
 
 A minimalist Windows terminal-based TODO manager designed for lazy programmers who prefer working in the command line. The program automatically runs once per day during your first terminal session, helping you manage daily tasks without disrupting your workflow.
