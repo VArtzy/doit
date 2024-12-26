@@ -1,12 +1,12 @@
 # DOIT
 
-A minimalist Windows terminal-based TODO manager designed for developers who prefer working in the command line. The program automatically runs once per day during your first terminal session, helping you manage daily tasks without disrupting your workflow.
+A minimalist Windows terminal-based TODO manager designed for lazy programmers who prefer working in the command line. The program automatically runs once per day during your first terminal session, helping you manage daily tasks without disrupting your workflow.
 
 https://github.com/user-attachments/assets/5d84bfaa-ca04-492f-be8b-76d0c02a4df4
 
 ## Features
 
-- **Ultra Lightweihgt Executable**
+- **Ultra Lightweight Executable**
   - machine code and C program
   - This will not make your terminal bloated
 
