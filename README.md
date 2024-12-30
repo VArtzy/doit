@@ -71,7 +71,7 @@ The program stores its data in:
 %APPDATA%\doit\tasks.dat
 ```
 
-## Integration Tips
+## Integration Tips: Make it Automatically Run on First Session
 
 ### CMD Integration
 Add to your PATH:
