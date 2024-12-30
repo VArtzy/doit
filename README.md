@@ -84,3 +84,7 @@ Add an alias in your Clink configuration:
 ```lua
 load(io.popen('todo'):read("*a"))
 ```
+
+## TODO
+
+-  Fixing bug that the first session run doesn't working with `stdout`, making first terminal session only block process without giving menu and today todo(s) feedback
