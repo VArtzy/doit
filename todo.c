@@ -49,10 +49,12 @@ int main(int argc) {
     load_tasks();
 
     if (run) {
+        printf("=== DOIT ===\n");
+        printf("Starting a new day...\n\n");
         cleanup_tasks();
+    } else {
+        printf("=== DOIT ===\n");
     }
-    
-    printf("=== DOIT ===\n");
     
     // Main program loop
     char choice;
