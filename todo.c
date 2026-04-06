@@ -30,6 +30,7 @@ void save_tasks(void);
 void add_task(void);
 void list_tasks(void);
 void mark_for_tomorrow(void);
+void complete_task(void);
 void cleanup_tasks(void);
 void create_directory_if_not_exists(const char* path);
 
@@ -62,7 +63,8 @@ int main(int argc) {
         list_tasks(); 
         printf("1. Add\n");
         printf("2. Mark\n");
-        printf("3. Exit\n");
+        printf("3. Complete\n");
+        printf("4. Exit\n");
         printf("Choose an option: ");
         
         scanf(" %c", &choice);
@@ -76,6 +78,9 @@ int main(int argc) {
                 mark_for_tomorrow();
                 break;
             case '3':
+                complete_task();
+                break;
+            case '4':
                 save_tasks();
                 return 0;
             default:
@@ -253,6 +258,33 @@ void mark_for_tomorrow(void) {
     
     tasks[task_num - 1].keep_for_tomorrow = 1;
     printf("Task marked for tomorrow!\n");
+}
+
+void complete_task(void) {
+    int task_num;
+    
+    if (task_count == 0) {
+        printf("No tasks to complete!\n");
+        return;
+    }
+    
+    printf("\nEnter task number to complete: ");
+    scanf("%d", &task_num);
+    getchar(); // Clear newline
+    
+    if (task_num < 1 || task_num > task_count) {
+        printf("Invalid task number!\n");
+        return;
+    }
+    
+    // Shift all tasks after the completed one
+    for (int i = task_num - 1; i < task_count - 1; i++) {
+        strcpy(tasks[i].description, tasks[i + 1].description);
+        tasks[i].keep_for_tomorrow = tasks[i + 1].keep_for_tomorrow;
+    }
+    
+    task_count--;
+    printf("Task completed!\n");
 }
 
 void cleanup_tasks(void) {
